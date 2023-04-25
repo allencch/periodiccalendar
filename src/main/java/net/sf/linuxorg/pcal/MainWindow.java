@@ -93,6 +93,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 
 import org.xml.sax.SAXException;
 
@@ -1419,6 +1420,8 @@ public class MainWindow {
 					Messages.getString("MainWindow.80"), //$NON-NLS-1$
 					JOptionPane.ERROR_MESSAGE);
 			saved = false;
+		} catch (TransformerException e) {
+			throw new RuntimeException(e);
 		}
 		setBusyCursor(false);
 		return saved;

@@ -73,7 +73,7 @@ public class EngineXMLCrypter {
 	 * @return the encrypted XML document
 	 * @throws IOException if any problem with the XML encryption will happen
 	 */
-	public static Document encryptXML(Document source, SecretKey key) throws IOException {
+	public static Document encryptXML(Document source, SecretKey key) throws IOException, TransformerConfigurationException {
 
 		Document result = null;
 		try {
@@ -166,7 +166,7 @@ public class EngineXMLCrypter {
 	 * This method returns a base64-encoded string which contains the encrypted 
 	 * source XML document.
 	 */
-	private static String encryptData(Document source, SecretKey key) throws IOException {
+	private static String encryptData(Document source, SecretKey key) throws IOException, TransformerConfigurationException {
 
 		Cipher cipher = getStreamCipher(Cipher.ENCRYPT_MODE, key);
 
