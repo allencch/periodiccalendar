@@ -1,0 +1,38 @@
+3.4.1
+- Fixed incorrect day names handling in some locales
+
+3.4
+1. Added possibility to change the range of temperatures on BBT screen.
+
+3.3
+1. Fixed crash in Self-Observation Dashboard preferences when dealing with 4th Sympthom. (Debian bug #657658).
+2. Day # is shown since the last mens even if there is no complete period recorded (Debian bug #657659).
+3. Minor calculations fixes for the periods in the past.
+4. Minor fixes related to the cycles estimation after the ovulation.
+5. Buffer days from preferences now impact the indicated accuracy of the calendar method.
+6. Fixed Statistics histogram for a constant length periods case.
+7. Fixed installer to locate Java launcher properly.
+8. Spanish localization added (contributed by Miriam Ruiz).
+9. Catalan translation added (contributed by Jordi Mallach).
+
+3.2
+1. Support for the symto-thermal method added.
+2. Windows initial positioning bug fixed. If the window opens beyond the screen
+   its position and size are reset to default.
+3. The fertility prediction was improved.
+4. Some core methods were refactored even more.
+5. Unit tests coverage increased to the reasonable level.
+
+3.1
+1. Internationalization support improved.
+2. Ukrainian translation added.
+3. Password protection for the pcal files are now available.
+4. Possibility to record pregnancy interruption added.
+5. Disclaimer is displayed on the first application start that Periodic 
+   Calendar can only be used as a tracking utility, but not as a contraceptive tool. 
+6. Unit tests for the application core modules created.
+7. Some core methods were refactored to make the code support easier.
+
+3.0
+Project was rewritten in Java. Functionality generally kept the same. See the application online 
+help for more details.

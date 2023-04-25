@@ -1,0 +1,28 @@
+Periodic Calendar is a GUI application which assists in women menstrual cycles
+tracking and fertility periods prediction. This information can be used as 
+supportive either for conception or contraception planning.
+
+Periodic Calendar provides support for sympto-thermal method which has the highest
+reliability in fertility periods prediction. User can choose any subset of the 
+features to be used or even fall to the generic calendar method (which if used 
+alone is very unreliable).  
+
+Authors of the Periodic Calendar still insist on not being an equal substitute
+to the fertility planning consultants or doctors. Before using this application
+please talk to your doctor or read a good book on the subject.
+
+THIS PROGRAM PREDICTIONS IN NO WAY CAN BE USED AS THE FINAL. THERE ARE NO 
+PREDICTION METHODS WHICH PROVIDE 100% RELIABILITY.
+
+Please see the application online help for more information.
+
+
+PERIODIC CALENDAR 1.x DATA MIGRATION NOTES
+
+Versions 2.x and 3.x of the Periodic Calendar use new file format which is based on XML. 
+If you would like to import the data you maintained in the previous version, 
+please use the Import/Export feature located in the File submenu of the main menu.
+
+Version 3.x of the data file is backward compatible with 2.x which means you can open 
+2.x files directly. Possibility for the application version 2.x to open newer file versions
+is not guaranteed.

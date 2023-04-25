@@ -1,0 +1,8 @@
+General project To Do list.
+
+1. Merge main window with the self-observation dashboard. Allow the user to choose what should be visible on the screen. 
+Allow dragging out panels from the main window and rearranging them per user discretion. Is that possible in SWING? 
+2. Add the possibility to drag and drop events in the calendar to other date. This is more logical than Delete->Create sequence.
+3. Associate different icons with the dates. This will bring "Date Types" idea into the application.
+4. Create report dialog to provide statistical information about the number of the "date types" per specified period.
+5. Replace Statistics graph with barchart with connected tops. This will reflect better the nature of the graph. 
