@@ -34,7 +34,7 @@ public class PCalendar {
 	/**
 	 * The primary source of the application core version information. 
 	 */
-	public static final String APP_VERSION = "3.4.1"; //$NON-NLS-1$
+	public static final String APP_VERSION = "3.4.2"; //$NON-NLS-1$
 
 	public static MainWindow mainWindow;
 	public static Engine engine;

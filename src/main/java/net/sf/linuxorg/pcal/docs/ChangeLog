@@ -1,3 +1,6 @@
+3.4.2
+- Fix deprecated `com.sun.org.apache.xml.internal.serialize`
+
 3.4.1
 - Fixed incorrect day names handling in some locales
 
