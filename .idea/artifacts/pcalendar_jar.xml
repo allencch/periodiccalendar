@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="pcalendar:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/pcalendar_jar</output-path>
-    <root id="archive" name="pcalendar.jar">
+    <root id="archive" name="periodiccalendar.jar">
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$APPLICATION_HOME_DIR$/bin/src/main/resources/META-INF/MANIFEST.MF" />
       </element>
